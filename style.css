@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+
+body, h1, li, ul {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	padding: 0;
+}
+.container {
+	max-width: 1112px;
+	margin: 0 auto;
+}
+header {
+	background-color: #DEDAC0;
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__list {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	list-style: none;
+}
+
+nav {
+width: 50%;
+}
+
+a {
+	font-family: 'Gilroy';
+	font-weight: 500;
+	font-size: 18px;	
+	color: #000000;
+}
+
+.carousel {
+	background-image: url(images/Carousel.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	height: 608px;
+	padding-bottom: 83px;
+}
+
+.inner-carousel {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+	height: 100%;
+}
+
+h1 {
+	font-family: 'Montserrat';
+font-style: italic;
+font-weight: 700;
+font-size: 60px;
+color: #FFFFFF;
+}
+
+footer {
+	display: flex;
+	background-color: #DEDAC0;
+	justify-content: space-between;
+	align-items: center;
+}
+.call_action {
+	display: flex;
+	background-color: #DEDAC0;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	margin: 100px 0;
+
+}
+.room__list {
+padding-left: 50px;
+}
+
+.room {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.reservation {
+	width: 194px;
+height: 57px;
+background: #DEDAC0;
+border-radius: 10px;
+border: none;
+margin-left: auto;
+}
+
+.room__img__pictures {
+	display: flex;
+	justify-content: space-between;
+}
+
+.room__text {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.room__v2 {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 50px;
+	
+}
+
+.reservation2 {
+	width: 194px;
+height: 57px;
+background: #DEDAC0;
+border-radius: 10px;
+border: none;
+}
+
+.contact__list {
+	width: 50px;height: 157px;
+}
+.social__list {
+	width: 50px;height: 157px;
+}
+.privacy__list {
+display: flex;
+align-items: center;
+align-self: flex-start;
+
+}
+
+.call_action {
+	font-size: 30px;
+	padding-left: 165px;
+}
